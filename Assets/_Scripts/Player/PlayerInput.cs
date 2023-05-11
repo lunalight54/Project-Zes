@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerInput : MonoBehaviour
 {
-    public event Action OnMouseClick, OnFly;
+    public event Action OnMouseClick, OnFly, OnRightMouseClick;
     public bool RunningPressed { get; private set; }
     public Vector3 MovementInput { get; private set; }
     public Vector3 MousePosition { get; private set; }
@@ -14,6 +14,7 @@ public class PlayerInput : MonoBehaviour
     private void Update()
     {
         GetMouseClick();
+        GetRightMouseClick();
         GetMousePosition();
         GetMovementInput();
         GetJumpInput();
@@ -54,6 +55,13 @@ public class PlayerInput : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             OnMouseClick?.Invoke();
+        }
+    }
+    private void GetRightMouseClick()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
+            OnRightMouseClick?.Invoke();
         }
     }
 }

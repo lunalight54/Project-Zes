@@ -31,6 +31,7 @@ public class World : MonoBehaviour
             chunkDataDictionary = new Dictionary<Vector3Int, ChunkData>(),
             chunkDictionary = new Dictionary<Vector3Int, ChunkRenderer>()
         };
+        GenerateWorld(Vector3Int.zero);
     }
 
     public void GenerateWorld()
@@ -74,12 +75,12 @@ public class World : MonoBehaviour
         OnWorldCreated?.Invoke();
     }
 
-    internal bool SetBlock(RaycastHit hit, BlockType blockType)
+    internal bool SetBlock(RaycastHit hit, BlockType blockType, bool toPlace)
     {
         ChunkRenderer chunk = hit.collider.GetComponent<ChunkRenderer>();
         if (chunk == null)
             return false;
-        Vector3Int pos = GetBlockPos(hit);
+        Vector3Int pos = GetBlockPos(hit, toPlace);
 
         WorldDataHelper.SetBlock(chunk.ChunkData.worldReference, pos, blockType);
         chunk.ModifiedByThePlayer = true;
@@ -100,26 +101,36 @@ public class World : MonoBehaviour
         return true;
     }
 
-    private Vector3Int GetBlockPos(RaycastHit hit)
+    private Vector3Int GetBlockPos(RaycastHit hit, bool toPlace)
     {
-        Vector3 pos = new Vector3(
-            GetBlockPositionIn(hit.point.x, hit.normal.x),
-            GetBlockPositionIn(hit.point.y, hit.normal.y),
-            GetBlockPositionIn(hit.point.z, hit.normal.z)
+       
+            Vector3 pos = new Vector3(
+                GetBlockPositionIn(hit.point.x, hit.normal.x, toPlace),
+                GetBlockPositionIn(hit.point.y, hit.normal.y, toPlace),
+                GetBlockPositionIn(hit.point.z, hit.normal.z, toPlace)
             );
 
-        return Vector3Int.RoundToInt(pos);
+            return Vector3Int.RoundToInt(pos);
+
+
     }
 
-    private float GetBlockPositionIn(float pos, float normal)
+    private float GetBlockPositionIn(float pos, float normal, bool toPlace)
     {
         if (Mathf.Abs(pos % 1) == 0.5f)
         {
-            pos -= (normal / 2);
+            if (toPlace) {
+                pos += (normal / 2);
+
+            }
+            else {
+                pos -= (normal / 2);
+            }
         }
 
         return (float)pos;
     }
+    
 
     internal void RemoveChunk(ChunkRenderer chunk)
     {

@@ -617,6 +617,7 @@ GameObject:
   - component: {fileID: 948377337}
   - component: {fileID: 948377336}
   - component: {fileID: 948377335}
+  - component: {fileID: 948377338}
   m_Layer: 5
   m_Name: NewGameButton
   m_TagString: Untagged
@@ -688,7 +689,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 948377336}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 948377338}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &948377336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -727,6 +740,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 948377333}
   m_CullTransparentMesh: 1
+--- !u!114 &948377338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948377333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d2a2b51ca1587f43b879bdb857ff3fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newSceneName: SampleWorldGenScene
 --- !u!1 &948426131
 GameObject:
   m_ObjectHideFlags: 0

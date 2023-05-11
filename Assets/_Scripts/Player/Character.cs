@@ -28,6 +28,7 @@ public class Character : MonoBehaviour
     {
         playerInput.OnMouseClick += HandleMouseClick;
         playerInput.OnFly += HandleFlyClick;
+        playerInput.OnRightMouseClick += HandleRightMouseClick;
     }
     private void HandleFlyClick()
     {
@@ -69,12 +70,21 @@ public class Character : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(playerRay, out hit, interactionRaylenght, groundMask))
         {
-            ModifyTerrain(hit);
+            ModifyTerrain(hit, BlockType.Air,false);
+        }
+    }
+    private void HandleRightMouseClick()
+    {
+        Ray playerRay = new Ray(mainCamera.transform.position, mainCamera.transform.forward);
+        RaycastHit hit;
+        if (Physics.Raycast(playerRay, out hit, interactionRaylenght, groundMask))
+        {
+            ModifyTerrain(hit, BlockType.Dirt, true);
         }
     }
 
-    private void ModifyTerrain(RaycastHit hit)
+    private void ModifyTerrain(RaycastHit hit, BlockType blockType, bool toPlace)
     {
-        world.SetBlock(hit, BlockType.Air);
+        world.SetBlock(hit, blockType, toPlace);
     }
 }
