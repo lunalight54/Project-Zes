@@ -288,12 +288,14 @@ MonoBehaviour:
   mainCamera: {fileID: 0}
   playerInput: {fileID: 1703821353}
   playerMovement: {fileID: 1703821357}
+  inventory: {fileID: 11400000, guid: 91a9a78a9a45e0c4f834d62b340f0311, type: 2}
   interactionRaylenght: 5
   groundMask:
     serializedVersion: 2
     m_Bits: 8
   fly: 0
   animator: {fileID: 116692707738079568}
+  world: {fileID: 0}
 --- !u!114 &1703821357
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -9,7 +9,7 @@ public class PlayerCamera : MonoBehaviour
     [SerializeField] private PlayerInput playerInput;
 
     float verticalRotation = 0f;
-
+    public bool blocked = false;
     private void Awake()
     {
         playerInput = GetComponentInParent<PlayerInput>();
@@ -20,6 +20,9 @@ public class PlayerCamera : MonoBehaviour
     }
     private void Update()
     {
+        if(blocked)
+            return;
+        
         float mouseX = playerInput.MousePosition.x * sensitivity * Time.deltaTime;
         float mouseY = playerInput.MousePosition.y * sensitivity * Time.deltaTime;
 

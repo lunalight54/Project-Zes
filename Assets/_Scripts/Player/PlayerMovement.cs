@@ -11,9 +11,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpHeight = 1.0f;
     [SerializeField] private float gravityValue = -9.81f;
     [SerializeField] private float flySpeed = 2;
-
+    
     private Vector3 playerVelocity;
-
+    public bool blocked = false;
     [Header("Grounded check parameters: ")]
     [SerializeField] private LayerMask groundMask;
     [SerializeField] private float rayDistance = 1;
@@ -31,6 +31,8 @@ public class PlayerMovement : MonoBehaviour
     }
     public void Fly( Vector3 movementInput, bool ascendInput, bool descendInput)
     {
+        if(blocked)
+            return;
         Vector3 movementDirection = GetMovementDirection(movementInput);
         if (ascendInput)
         {
@@ -68,6 +70,8 @@ public class PlayerMovement : MonoBehaviour
 
     public void Walk(Vector3 movementInput, bool runningInput)
     {
+        if(blocked)
+            return;
         Vector3 movementDirection = GetMovementDirection(movementInput);
         float speed = runningInput ? playerRunSpeed : playerSpeed;
         controller.Move(movementDirection * Time.deltaTime * speed);

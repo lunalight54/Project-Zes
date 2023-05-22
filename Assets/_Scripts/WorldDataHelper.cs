@@ -103,9 +103,22 @@ public static class WorldDataHelper
         if (chunkData != null)
         {
             Vector3Int localPosition = Chunk.GetBlockInChunkCoordinates(chunkData, pos);
+            //Log(Chunk.GetBlockFromChunkCoordinates(chunkData, localPosition));
             Chunk.SetBlock(chunkData, localPosition, blockType);
         }
     }
+    internal static BlockType GetBlock(World worldReference, Vector3Int pos)
+    {
+        ChunkData chunkData = GetChunkData(worldReference, pos);
+        if (chunkData != null)
+        {
+            Vector3Int localPosition = Chunk.GetBlockInChunkCoordinates(chunkData, pos);
+            return Chunk.GetBlockFromChunkCoordinates(chunkData, localPosition);
+        }
+
+        return BlockType.Nothing;
+    }
+    
 
     public static ChunkData GetChunkData(World worldReference, Vector3Int pos)
     {

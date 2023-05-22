@@ -81,7 +81,7 @@ public class World : MonoBehaviour
         if (chunk == null)
             return false;
         Vector3Int pos = GetBlockPos(hit, toPlace);
-
+        //Debug.Log(WorldDataHelper.GetBlock(chunk.ChunkData.worldReference, pos));
         WorldDataHelper.SetBlock(chunk.ChunkData.worldReference, pos, blockType);
         chunk.ModifiedByThePlayer = true;
 
@@ -101,7 +101,7 @@ public class World : MonoBehaviour
         return true;
     }
 
-    private Vector3Int GetBlockPos(RaycastHit hit, bool toPlace)
+    public Vector3Int GetBlockPos(RaycastHit hit, bool toPlace)
     {
        
             Vector3 pos = new Vector3(
@@ -117,7 +117,7 @@ public class World : MonoBehaviour
 
     private float GetBlockPositionIn(float pos, float normal, bool toPlace)
     {
-        if (Mathf.Abs(pos % 1) == 0.5f)
+        if (Mathf.Abs(pos % 1) > 0.45f && Mathf.Abs(pos % 1) < 0.55f)
         {
             if (toPlace) {
                 pos += (normal / 2);

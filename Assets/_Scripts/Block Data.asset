@@ -75,3 +75,24 @@ MonoBehaviour:
     side: {x: 3, y: 3}
     isSolid: 1
     generatesCollider: 1
+  BlockDataInfoList:
+  - blockType: 1
+    item: {fileID: 0}
+  - blockType: 2
+    item: {fileID: 11400000, guid: b43a46c911cba9348bf70d6420ebcb57, type: 2}
+  - blockType: 3
+    item: {fileID: 0}
+  - blockType: 4
+    item: {fileID: 0}
+  - blockType: 5
+    item: {fileID: 11400000, guid: 450e9ffe22cff2045befd600f2ee0b59, type: 2}
+  - blockType: 6
+    item: {fileID: 0}
+  - blockType: 7
+    item: {fileID: 0}
+  - blockType: 8
+    item: {fileID: 0}
+  - blockType: 9
+    item: {fileID: 0}
+  - blockType: 10
+    item: {fileID: 11400000, guid: bdd1d26d7a3176147b620d696beb7828, type: 2}
