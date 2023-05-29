@@ -1,0 +1,7 @@
+<map id="ItemPanel.Show" name="ItemPanel.Show">
+<area shape="rect" id="Node000001" title=" " alt="" coords="209,31,324,57"/>
+<area shape="rect" id="Node000002" href="$class_item_panel.html#a1e9912f31c25e201749a66987aeba2d3" title=" " alt="" coords="33,5,133,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,37,133,28,134,23,194,31"/>
+<area shape="rect" id="Node000003" href="$class_inventory_panel.html#ace2d9f99c762b3a332a24ea45bfb67d4" title=" " alt="" coords="5,56,161,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="194,57,162,61,161,56,194,51"/>
+</map>

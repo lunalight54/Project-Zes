@@ -1,0 +1,7 @@
+<map id="WaterLayerHandler" name="WaterLayerHandler">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,261,129,331"/>
+<area shape="rect" id="Node000002" href="$class_block_layer_handler.html" title=" " alt="" coords="7,123,128,213"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,228,70,262,65,262,65,228"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="17,5,118,75"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="70,89,70,123,65,123,65,89"/>
+</map>

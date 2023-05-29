@@ -1,0 +1,98 @@
+\doxysection{Mesh\+Data Class Reference}
+\hypertarget{class_mesh_data}{}\label{class_mesh_data}\index{MeshData@{MeshData}}
+
+
+Collaboration diagram for Mesh\+Data\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=257pt]{class_mesh_data__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_mesh_data_a6f83a16afaf6f8a4650366a100178199}{Mesh\+Data}} (bool is\+Main\+Mesh)
+\item 
+void \mbox{\hyperlink{class_mesh_data_a22755a96e61e55a214cf2aefb87bff48}{Add\+Vertex}} (Vector3 vertex, bool vertex\+Generates\+Collider)
+\item 
+void \mbox{\hyperlink{class_mesh_data_ab3d2ea7b4001556fa8d1fc0579b25fee}{Add\+Quad\+Triangles}} (bool quad\+Generates\+Collider)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ Vector3 $>$ \mbox{\hyperlink{class_mesh_data_afb7003edac2072b12875bf39ad5f9475}{vertices}} = new List$<$Vector3$>$()
+\item 
+List$<$ int $>$ \mbox{\hyperlink{class_mesh_data_a2c28d03d2e9c11f46054e53c48b3d5f5}{triangles}} = new List$<$int$>$()
+\item 
+List$<$ Vector2 $>$ \mbox{\hyperlink{class_mesh_data_a1abc178793b8ab863cffcd1c6c39150e}{uv}} = new List$<$Vector2$>$()
+\item 
+List$<$ Vector3 $>$ \mbox{\hyperlink{class_mesh_data_a632cc320c3ca9b6fdf9310f432a03d1c}{collider\+Vertices}} = new List$<$Vector3$>$()
+\item 
+List$<$ int $>$ \mbox{\hyperlink{class_mesh_data_aaa77c5afb796579845b6641271ad5834}{collider\+Triangles}} = new List$<$int$>$()
+\item 
+\mbox{\hyperlink{class_mesh_data}{Mesh\+Data}} \mbox{\hyperlink{class_mesh_data_a6db0525155a03d8a3316cfd5bfc2c2a3}{water\+Mesh}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_mesh_data_a6f83a16afaf6f8a4650366a100178199}\label{class_mesh_data_a6f83a16afaf6f8a4650366a100178199} 
+\index{MeshData@{MeshData}!MeshData@{MeshData}}
+\index{MeshData@{MeshData}!MeshData@{MeshData}}
+\doxysubsubsection{\texorpdfstring{MeshData()}{MeshData()}}
+{\footnotesize\ttfamily Mesh\+Data.\+Mesh\+Data (\begin{DoxyParamCaption}\item[{bool}]{is\+Main\+Mesh }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_mesh_data_ab3d2ea7b4001556fa8d1fc0579b25fee}\label{class_mesh_data_ab3d2ea7b4001556fa8d1fc0579b25fee} 
+\index{MeshData@{MeshData}!AddQuadTriangles@{AddQuadTriangles}}
+\index{AddQuadTriangles@{AddQuadTriangles}!MeshData@{MeshData}}
+\doxysubsubsection{\texorpdfstring{AddQuadTriangles()}{AddQuadTriangles()}}
+{\footnotesize\ttfamily void Mesh\+Data.\+Add\+Quad\+Triangles (\begin{DoxyParamCaption}\item[{bool}]{quad\+Generates\+Collider }\end{DoxyParamCaption})}
+
+\Hypertarget{class_mesh_data_a22755a96e61e55a214cf2aefb87bff48}\label{class_mesh_data_a22755a96e61e55a214cf2aefb87bff48} 
+\index{MeshData@{MeshData}!AddVertex@{AddVertex}}
+\index{AddVertex@{AddVertex}!MeshData@{MeshData}}
+\doxysubsubsection{\texorpdfstring{AddVertex()}{AddVertex()}}
+{\footnotesize\ttfamily void Mesh\+Data.\+Add\+Vertex (\begin{DoxyParamCaption}\item[{Vector3}]{vertex,  }\item[{bool}]{vertex\+Generates\+Collider }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_mesh_data_aaa77c5afb796579845b6641271ad5834}\label{class_mesh_data_aaa77c5afb796579845b6641271ad5834} 
+\index{MeshData@{MeshData}!colliderTriangles@{colliderTriangles}}
+\index{colliderTriangles@{colliderTriangles}!MeshData@{MeshData}}
+\doxysubsubsection{\texorpdfstring{colliderTriangles}{colliderTriangles}}
+{\footnotesize\ttfamily List$<$int$>$ Mesh\+Data.\+collider\+Triangles = new List$<$int$>$()}
+
+\Hypertarget{class_mesh_data_a632cc320c3ca9b6fdf9310f432a03d1c}\label{class_mesh_data_a632cc320c3ca9b6fdf9310f432a03d1c} 
+\index{MeshData@{MeshData}!colliderVertices@{colliderVertices}}
+\index{colliderVertices@{colliderVertices}!MeshData@{MeshData}}
+\doxysubsubsection{\texorpdfstring{colliderVertices}{colliderVertices}}
+{\footnotesize\ttfamily List$<$Vector3$>$ Mesh\+Data.\+collider\+Vertices = new List$<$Vector3$>$()}
+
+\Hypertarget{class_mesh_data_a2c28d03d2e9c11f46054e53c48b3d5f5}\label{class_mesh_data_a2c28d03d2e9c11f46054e53c48b3d5f5} 
+\index{MeshData@{MeshData}!triangles@{triangles}}
+\index{triangles@{triangles}!MeshData@{MeshData}}
+\doxysubsubsection{\texorpdfstring{triangles}{triangles}}
+{\footnotesize\ttfamily List$<$int$>$ Mesh\+Data.\+triangles = new List$<$int$>$()}
+
+\Hypertarget{class_mesh_data_a1abc178793b8ab863cffcd1c6c39150e}\label{class_mesh_data_a1abc178793b8ab863cffcd1c6c39150e} 
+\index{MeshData@{MeshData}!uv@{uv}}
+\index{uv@{uv}!MeshData@{MeshData}}
+\doxysubsubsection{\texorpdfstring{uv}{uv}}
+{\footnotesize\ttfamily List$<$Vector2$>$ Mesh\+Data.\+uv = new List$<$Vector2$>$()}
+
+\Hypertarget{class_mesh_data_afb7003edac2072b12875bf39ad5f9475}\label{class_mesh_data_afb7003edac2072b12875bf39ad5f9475} 
+\index{MeshData@{MeshData}!vertices@{vertices}}
+\index{vertices@{vertices}!MeshData@{MeshData}}
+\doxysubsubsection{\texorpdfstring{vertices}{vertices}}
+{\footnotesize\ttfamily List$<$Vector3$>$ Mesh\+Data.\+vertices = new List$<$Vector3$>$()}
+
+\Hypertarget{class_mesh_data_a6db0525155a03d8a3316cfd5bfc2c2a3}\label{class_mesh_data_a6db0525155a03d8a3316cfd5bfc2c2a3} 
+\index{MeshData@{MeshData}!waterMesh@{waterMesh}}
+\index{waterMesh@{waterMesh}!MeshData@{MeshData}}
+\doxysubsubsection{\texorpdfstring{waterMesh}{waterMesh}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_mesh_data}{Mesh\+Data}} Mesh\+Data.\+water\+Mesh}
+

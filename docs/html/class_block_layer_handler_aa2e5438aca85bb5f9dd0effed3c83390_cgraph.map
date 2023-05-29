@@ -1,0 +1,6 @@
+<map id="BlockLayerHandler.Handle" name="BlockLayerHandler.Handle">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,180,56"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="53,31,46,21,51,11,66,5,93,3,122,6,137,13,134,18,121,11,92,8,68,10,54,15,51,20,57,27"/>
+<area shape="rect" id="Node000002" href="$class_block_layer_handler.html#ab0cc31abeb7248be3552a1b60726fe48" title=" " alt="" coords="228,29,430,56"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="180,40,213,40,213,45,180,45"/>
+</map>

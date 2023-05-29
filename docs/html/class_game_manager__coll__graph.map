@@ -1,0 +1,25 @@
+<map id="GameManager" name="GameManager">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,1340,189,1495"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="152,188,253,257"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,270,136,310,108,357,87,411,81,439,79,467,79,1083,83,1219,92,1340,87,1341,78,1220,73,1083,73,467,76,438,82,409,103,355,131,307,161,267"/>
+<area shape="rect" id="Node000003" href="$class_world.html" title=" " alt="" coords="113,887,335,1276"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="182,271,164,312,147,360,134,413,129,467,129,789,133,838,143,886,138,887,128,838,124,789,124,467,129,412,142,359,159,310,177,269"/>
+<area shape="rect" id="Node000004" href="$class_terrain_generator.html" title=" " alt="" coords="165,753,313,823"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="206,271,208,377,217,534,238,753,232,754,212,535,203,377,200,271"/>
+<area shape="rect" id="Node000005" href="$class_biome_generator.html" title=" " alt="" coords="247,599,407,689"/>
+<area shape="poly" id="edge7_Node000005_Node000002" title=" " alt="" coords="207,271,219,393,234,464,256,534,273,567,293,597,288,600,268,570,251,536,229,466,214,394,201,272"/>
+<area shape="rect" id="Node000008" href="$class_domain_warping.html" title=" " alt="" coords="412,401,588,535"/>
+<area shape="poly" id="edge11_Node000008_Node000002" title=" " alt="" coords="256,264,422,399,418,404,253,268"/>
+<area shape="rect" id="Node000009" href="$class_block_layer_handler.html" title=" " alt="" coords="266,423,387,513"/>
+<area shape="poly" id="edge14_Node000009_Node000002" title=" " alt="" coords="229,269,307,422,302,424,224,271"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="153,1277,135,1325,130,1323,148,1275"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="240,822,237,870,232,870,234,822"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="302,691,271,740,266,737,297,688"/>
+<area shape="rect" id="Node000006" href="$class_noise_settings.html" title=" " alt="" coords="507,124,650,321"/>
+<area shape="poly" id="edge8_Node000005_Node000006" title=" " alt="" coords="615,321,620,345,624,393,622,444,615,494,602,536,589,559,572,579,551,596,527,610,476,629,424,640,423,635,475,624,525,605,548,592,568,576,585,556,598,534,610,493,617,444,619,393,615,346,610,322"/>
+<area shape="poly" id="edge12_Node000008_Node000006" title=" " alt="" coords="534,322,526,346,516,386,510,384,521,345,529,320"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="524,5,633,75"/>
+<area shape="poly" id="edge9_Node000006_Node000007" title=" " alt="" coords="581,89,581,124,576,124,576,89"/>
+<area shape="poly" id="edge10_Node000005_Node000008" title=" " alt="" coords="477,536,449,576,422,599,419,595,445,573,472,533"/>
+<area shape="poly" id="edge13_Node000005_Node000009" title=" " alt="" coords="329,513,329,582,324,582,324,513"/>
+</map>

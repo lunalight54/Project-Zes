@@ -1,0 +1,9 @@
+<map id="DomainWarping.GenerateDomainOffset" name="DomainWarping.GenerateDomainOffset">
+<area shape="rect" id="Node000001" title=" " alt="" coords="519,39,733,81"/>
+<area shape="rect" id="Node000002" href="$class_domain_warping.html#afba6e272a4d8661ed4436232eb6cabe4" title=" " alt="" coords="257,5,471,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="504,47,471,43,472,38,504,42"/>
+<area shape="rect" id="Node000004" href="$class_domain_warping.html#a2573bda67e6703d92093bc5aeeaa3301" title=" " alt="" coords="257,72,471,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="504,78,472,82,471,77,504,73"/>
+<area shape="rect" id="Node000003" href="$class_stone_layer_handler.html#a066d56f6303846afb86824632198f8dc" title=" " alt="" coords="5,13,209,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="242,29,209,29,209,24,242,24"/>
+</map>

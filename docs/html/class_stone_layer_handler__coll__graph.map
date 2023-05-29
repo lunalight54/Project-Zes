@@ -1,0 +1,14 @@
+<map id="StoneLayerHandler" name="StoneLayerHandler">
+<area shape="rect" id="Node000001" title=" " alt="" coords="90,599,213,668"/>
+<area shape="rect" id="Node000002" href="$class_block_layer_handler.html" title=" " alt="" coords="5,423,127,513"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,525,136,598,132,600,93,527"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="35,188,137,257"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,272,72,423,67,423,79,272"/>
+<area shape="rect" id="Node000004" href="$class_domain_warping.html" title=" " alt="" coords="151,401,327,535"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="117,268,200,400,196,403,112,271"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="206,536,180,585,175,582,202,533"/>
+<area shape="rect" id="Node000005" href="$class_noise_settings.html" title=" " alt="" coords="168,124,311,321"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="242,321,242,384,237,384,237,321"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="185,5,294,75"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="242,89,242,124,237,124,237,89"/>
+</map>
