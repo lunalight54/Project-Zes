@@ -1,0 +1,8 @@
+<map id="BlockLayerHandler.Handle" name="BlockLayerHandler.Handle">
+<area shape="rect" id="Node000001" title=" " alt="" coords="480,29,654,56"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="609,18,596,11,567,8,542,10,529,15,525,20,532,27,527,31,520,21,525,11,541,5,567,3,597,6,612,13"/>
+<area shape="rect" id="Node000002" href="$class_biome_generator.html#af6d7c812c2afb6863c6b9d5dcd84c0f4" title=" " alt="" coords="228,21,432,64"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="465,45,432,45,432,40,465,40"/>
+<area shape="rect" id="Node000003" href="$class_terrain_generator.html#a775a44d9918c5545ff965150939f3c1d" title=" " alt="" coords="5,21,180,64"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="213,45,180,45,180,40,213,40"/>
+</map>

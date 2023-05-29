@@ -1,0 +1,9 @@
+<map id="TMPro.TMP_TextEventHandler" name="TMPro.TMP_TextEventHandler">
+<area shape="rect" id="Node000001" title=" " alt="" coords="103,123,292,299"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,107,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,84,127,121,123,125,91,87"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="131,5,263,75"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="200,89,200,123,195,123,195,89"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="287,5,411,75"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="312,87,278,125,274,121,308,83"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="TerrainGenerator" name="TerrainGenerator">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,753,153,823"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="150,188,251,257"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,269,120,330,101,365,86,402,74,450,67,500,63,599,68,687,76,753,71,754,63,688,57,599,61,500,69,449,81,401,96,363,115,327,159,266"/>
+<area shape="rect" id="Node000003" href="$class_biome_generator.html" title=" " alt="" coords="250,599,410,689"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="265,251,309,277,356,310,399,351,432,400,454,447,463,488,459,529,439,576,427,593,411,607,408,603,423,589,434,573,454,528,458,488,449,449,428,403,395,355,352,314,306,281,262,255"/>
+<area shape="rect" id="Node000006" href="$class_domain_warping.html" title=" " alt="" coords="242,401,418,535"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="228,269,298,400,293,403,223,271"/>
+<area shape="rect" id="Node000007" href="$class_block_layer_handler.html" title=" " alt="" coords="96,423,217,513"/>
+<area shape="poly" id="edge10_Node000007_Node000002" title=" " alt="" coords="195,272,167,423,162,422,189,271"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="253,692,154,747,152,743,251,687"/>
+<area shape="rect" id="Node000004" href="$class_noise_settings.html" title=" " alt="" coords="485,124,628,321"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="555,321,546,384,529,452,501,518,482,549,460,577,426,604,423,600,456,573,478,546,496,516,524,450,541,383,550,321"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="488,302,404,391,401,387,484,298"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="502,5,611,75"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="559,89,559,124,554,124,554,89"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="333,534,333,582,327,582,327,534"/>
+<area shape="poly" id="edge9_Node000003_Node000007" title=" " alt="" coords="175,512,191,543,213,573,238,595,235,599,209,576,186,546,170,514"/>
+</map>

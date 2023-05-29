@@ -1,0 +1,9 @@
+<map id="BlockDataManager" name="BlockDataManager">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,321,188,476"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="25,156,126,225"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,239,91,321,86,322,78,240"/>
+<area shape="rect" id="Node000003" href="$class_block_data_s_o.html" title=" " alt="" coords="151,124,275,257"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="178,258,150,308,145,306,174,256"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="158,5,267,75"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="215,89,215,124,210,124,210,89"/>
+</map>

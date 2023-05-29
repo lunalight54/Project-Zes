@@ -1,0 +1,171 @@
+\doxysection{World Class Reference}
+\hypertarget{class_world}{}\label{class_world}\index{World@{World}}
+
+
+Inheritance diagram for World\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{class_world__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for World\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_world__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_world_1_1_world_data}{World\+Data}}
+\item 
+struct \mbox{\hyperlink{struct_world_1_1_world_generation_data}{World\+Generation\+Data}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_world_a03c85bc10684ed93cf91b73e81e4efd6}{Generate\+World}} ()
+\item 
+Vector3\+Int \mbox{\hyperlink{class_world_afbf042870d20dcd263d6186a25b869cc}{Get\+Block\+Pos}} (Raycast\+Hit hit, bool to\+Place)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_world_a747e6c58cc9919dc382b19b9fe59c381}{map\+Size\+In\+Chunks}} = 6
+\item 
+int \mbox{\hyperlink{class_world_a0b50cf6569dd9fb5a34872e5f5715961}{chunk\+Size}} = 16
+\item 
+int \mbox{\hyperlink{class_world_a528d52a45c58087fbcb830d0fdabf7a9}{chunk\+Height}} = 100
+\item 
+int \mbox{\hyperlink{class_world_ac0fbc8c88ba6a749302a24d94c8d90e7}{chunk\+Drawing\+Range}} = 8
+\item 
+Game\+Object \mbox{\hyperlink{class_world_ad8888ecb4ee60937041f430c214acaf0}{chunk\+Prefab}}
+\item 
+\mbox{\hyperlink{class_terrain_generator}{Terrain\+Generator}} \mbox{\hyperlink{class_world_a3a5253b7cd583fb2504d0d99dee8a424}{terrain\+Generator}}
+\item 
+Vector2\+Int \mbox{\hyperlink{class_world_acf2d77475c56d0e9afa66a7d595e9909}{map\+Seed\+Offset}}
+\item 
+Dictionary$<$ Vector3\+Int, \mbox{\hyperlink{class_chunk_data}{Chunk\+Data}} $>$ \mbox{\hyperlink{class_world_ab8b4175debf064208a52a34ad24a4ac7}{chunk\+Data\+Dictionary}} = new Dictionary$<$Vector3\+Int, \mbox{\hyperlink{class_chunk_data}{Chunk\+Data}}$>$()
+\item 
+Dictionary$<$ Vector3\+Int, \mbox{\hyperlink{class_chunk_renderer}{Chunk\+Renderer}} $>$ \mbox{\hyperlink{class_world_a92ace09303099fb90e403d00b8cbf32b}{chunk\+Dictionary}} = new Dictionary$<$Vector3\+Int, \mbox{\hyperlink{class_chunk_renderer}{Chunk\+Renderer}}$>$()
+\item 
+Unity\+Event \mbox{\hyperlink{class_world_acceae51c5d91361f1512a64a3c2d48d2}{On\+World\+Created}}
+\item 
+Unity\+Event \mbox{\hyperlink{class_world_ae52eada7be8d1f2fe6f6406658e234d3}{On\+New\+Chunks\+Generated}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_world_1_1_world_data}{World\+Data}} \mbox{\hyperlink{class_world_a1fbe122911090d8260c2adb3154948e9}{world\+Data}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_world_a03c85bc10684ed93cf91b73e81e4efd6}\label{class_world_a03c85bc10684ed93cf91b73e81e4efd6} 
+\index{World@{World}!GenerateWorld@{GenerateWorld}}
+\index{GenerateWorld@{GenerateWorld}!World@{World}}
+\doxysubsubsection{\texorpdfstring{GenerateWorld()}{GenerateWorld()}}
+{\footnotesize\ttfamily void World.\+Generate\+World (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{class_world_a03c85bc10684ed93cf91b73e81e4efd6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{class_world_a03c85bc10684ed93cf91b73e81e4efd6_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_world_afbf042870d20dcd263d6186a25b869cc}\label{class_world_afbf042870d20dcd263d6186a25b869cc} 
+\index{World@{World}!GetBlockPos@{GetBlockPos}}
+\index{GetBlockPos@{GetBlockPos}!World@{World}}
+\doxysubsubsection{\texorpdfstring{GetBlockPos()}{GetBlockPos()}}
+{\footnotesize\ttfamily Vector3\+Int World.\+Get\+Block\+Pos (\begin{DoxyParamCaption}\item[{Raycast\+Hit}]{hit,  }\item[{bool}]{to\+Place }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_world_ab8b4175debf064208a52a34ad24a4ac7}\label{class_world_ab8b4175debf064208a52a34ad24a4ac7} 
+\index{World@{World}!chunkDataDictionary@{chunkDataDictionary}}
+\index{chunkDataDictionary@{chunkDataDictionary}!World@{World}}
+\doxysubsubsection{\texorpdfstring{chunkDataDictionary}{chunkDataDictionary}}
+{\footnotesize\ttfamily Dictionary$<$Vector3\+Int, \mbox{\hyperlink{class_chunk_data}{Chunk\+Data}}$>$ World.\+chunk\+Data\+Dictionary = new Dictionary$<$Vector3\+Int, \mbox{\hyperlink{class_chunk_data}{Chunk\+Data}}$>$()}
+
+\Hypertarget{class_world_a92ace09303099fb90e403d00b8cbf32b}\label{class_world_a92ace09303099fb90e403d00b8cbf32b} 
+\index{World@{World}!chunkDictionary@{chunkDictionary}}
+\index{chunkDictionary@{chunkDictionary}!World@{World}}
+\doxysubsubsection{\texorpdfstring{chunkDictionary}{chunkDictionary}}
+{\footnotesize\ttfamily Dictionary$<$Vector3\+Int, \mbox{\hyperlink{class_chunk_renderer}{Chunk\+Renderer}}$>$ World.\+chunk\+Dictionary = new Dictionary$<$Vector3\+Int, \mbox{\hyperlink{class_chunk_renderer}{Chunk\+Renderer}}$>$()}
+
+\Hypertarget{class_world_ac0fbc8c88ba6a749302a24d94c8d90e7}\label{class_world_ac0fbc8c88ba6a749302a24d94c8d90e7} 
+\index{World@{World}!chunkDrawingRange@{chunkDrawingRange}}
+\index{chunkDrawingRange@{chunkDrawingRange}!World@{World}}
+\doxysubsubsection{\texorpdfstring{chunkDrawingRange}{chunkDrawingRange}}
+{\footnotesize\ttfamily int World.\+chunk\+Drawing\+Range = 8}
+
+\Hypertarget{class_world_a528d52a45c58087fbcb830d0fdabf7a9}\label{class_world_a528d52a45c58087fbcb830d0fdabf7a9} 
+\index{World@{World}!chunkHeight@{chunkHeight}}
+\index{chunkHeight@{chunkHeight}!World@{World}}
+\doxysubsubsection{\texorpdfstring{chunkHeight}{chunkHeight}}
+{\footnotesize\ttfamily int World.\+chunk\+Height = 100}
+
+\Hypertarget{class_world_ad8888ecb4ee60937041f430c214acaf0}\label{class_world_ad8888ecb4ee60937041f430c214acaf0} 
+\index{World@{World}!chunkPrefab@{chunkPrefab}}
+\index{chunkPrefab@{chunkPrefab}!World@{World}}
+\doxysubsubsection{\texorpdfstring{chunkPrefab}{chunkPrefab}}
+{\footnotesize\ttfamily Game\+Object World.\+chunk\+Prefab}
+
+\Hypertarget{class_world_a0b50cf6569dd9fb5a34872e5f5715961}\label{class_world_a0b50cf6569dd9fb5a34872e5f5715961} 
+\index{World@{World}!chunkSize@{chunkSize}}
+\index{chunkSize@{chunkSize}!World@{World}}
+\doxysubsubsection{\texorpdfstring{chunkSize}{chunkSize}}
+{\footnotesize\ttfamily int World.\+chunk\+Size = 16}
+
+\Hypertarget{class_world_acf2d77475c56d0e9afa66a7d595e9909}\label{class_world_acf2d77475c56d0e9afa66a7d595e9909} 
+\index{World@{World}!mapSeedOffset@{mapSeedOffset}}
+\index{mapSeedOffset@{mapSeedOffset}!World@{World}}
+\doxysubsubsection{\texorpdfstring{mapSeedOffset}{mapSeedOffset}}
+{\footnotesize\ttfamily Vector2\+Int World.\+map\+Seed\+Offset}
+
+\Hypertarget{class_world_a747e6c58cc9919dc382b19b9fe59c381}\label{class_world_a747e6c58cc9919dc382b19b9fe59c381} 
+\index{World@{World}!mapSizeInChunks@{mapSizeInChunks}}
+\index{mapSizeInChunks@{mapSizeInChunks}!World@{World}}
+\doxysubsubsection{\texorpdfstring{mapSizeInChunks}{mapSizeInChunks}}
+{\footnotesize\ttfamily int World.\+map\+Size\+In\+Chunks = 6}
+
+\Hypertarget{class_world_ae52eada7be8d1f2fe6f6406658e234d3}\label{class_world_ae52eada7be8d1f2fe6f6406658e234d3} 
+\index{World@{World}!OnNewChunksGenerated@{OnNewChunksGenerated}}
+\index{OnNewChunksGenerated@{OnNewChunksGenerated}!World@{World}}
+\doxysubsubsection{\texorpdfstring{OnNewChunksGenerated}{OnNewChunksGenerated}}
+{\footnotesize\ttfamily Unity\+Event World.\+On\+New\+Chunks\+Generated}
+
+\Hypertarget{class_world_acceae51c5d91361f1512a64a3c2d48d2}\label{class_world_acceae51c5d91361f1512a64a3c2d48d2} 
+\index{World@{World}!OnWorldCreated@{OnWorldCreated}}
+\index{OnWorldCreated@{OnWorldCreated}!World@{World}}
+\doxysubsubsection{\texorpdfstring{OnWorldCreated}{OnWorldCreated}}
+{\footnotesize\ttfamily Unity\+Event World.\+On\+World\+Created}
+
+\Hypertarget{class_world_a3a5253b7cd583fb2504d0d99dee8a424}\label{class_world_a3a5253b7cd583fb2504d0d99dee8a424} 
+\index{World@{World}!terrainGenerator@{terrainGenerator}}
+\index{terrainGenerator@{terrainGenerator}!World@{World}}
+\doxysubsubsection{\texorpdfstring{terrainGenerator}{terrainGenerator}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_terrain_generator}{Terrain\+Generator}} World.\+terrain\+Generator}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_world_a1fbe122911090d8260c2adb3154948e9}\label{class_world_a1fbe122911090d8260c2adb3154948e9} 
+\index{World@{World}!worldData@{worldData}}
+\index{worldData@{worldData}!World@{World}}
+\doxysubsubsection{\texorpdfstring{worldData}{worldData}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_world_1_1_world_data}{World\+Data}} World.\+world\+Data\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+

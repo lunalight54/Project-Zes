@@ -1,0 +1,129 @@
+\doxysection{Chunk\+Data Class Reference}
+\hypertarget{class_chunk_data}{}\label{class_chunk_data}\index{ChunkData@{ChunkData}}
+
+
+data class containg information about game chunk  
+
+
+
+
+Collaboration diagram for Chunk\+Data\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_chunk_data__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_chunk_data_a66f94d4a6641f9e1fd2c65962c5aa2f1}{Chunk\+Data}} (int \mbox{\hyperlink{class_chunk_data_af9ee05bf0d1affe98170c13e5d46d4ff}{chunk\+Size}}, int \mbox{\hyperlink{class_chunk_data_adfa832ab991b6c3e1b0cad055c7bdb09}{chunk\+Height}}, \mbox{\hyperlink{class_world}{World}} world, Vector3\+Int \mbox{\hyperlink{class_chunk_data_ad27f309c9180ea58bbc716d812899ddc}{world\+Position}})
+\begin{DoxyCompactList}\small\item\em constructor \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_block_type_8cs_a54420623f26ab6bb61042b41cccf37a3}{Block\+Type}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_chunk_data_aef4b1a3738f41e87c3567b7e598517df}{blocks}}
+\begin{DoxyCompactList}\small\item\em 1 dimentional array with blocks\textquotesingle{} types \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_chunk_data_af9ee05bf0d1affe98170c13e5d46d4ff}{chunk\+Size}} = 16
+\begin{DoxyCompactList}\small\item\em vertical dimensions of chunk \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_chunk_data_adfa832ab991b6c3e1b0cad055c7bdb09}{chunk\+Height}} = 100
+\begin{DoxyCompactList}\small\item\em height of the chunk \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_world}{World}} \mbox{\hyperlink{class_chunk_data_a7b5f8079aac5bb9771948e29a3ae0b67}{world\+Reference}}
+\begin{DoxyCompactList}\small\item\em reference to \doxylink{class_world}{World} class \end{DoxyCompactList}\item 
+Vector3\+Int \mbox{\hyperlink{class_chunk_data_ad27f309c9180ea58bbc716d812899ddc}{world\+Position}}
+\begin{DoxyCompactList}\small\item\em absolute world position vector \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_chunk_data_a1c9863e537bdcf6344dae3a00b5ffdcd}{modified\+By\+The\+Player}} = false
+\begin{DoxyCompactList}\small\item\em flag indicating if chunk was modified by player \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+data class containg information about game chunk 
+
+chukt is a 3 dimentional cuboidal portion of the world 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_chunk_data_a66f94d4a6641f9e1fd2c65962c5aa2f1}\label{class_chunk_data_a66f94d4a6641f9e1fd2c65962c5aa2f1} 
+\index{ChunkData@{ChunkData}!ChunkData@{ChunkData}}
+\index{ChunkData@{ChunkData}!ChunkData@{ChunkData}}
+\doxysubsubsection{\texorpdfstring{ChunkData()}{ChunkData()}}
+{\footnotesize\ttfamily Chunk\+Data.\+Chunk\+Data (\begin{DoxyParamCaption}\item[{int}]{chunk\+Size,  }\item[{int}]{chunk\+Height,  }\item[{\mbox{\hyperlink{class_world}{World}}}]{world,  }\item[{Vector3\+Int}]{world\+Position }\end{DoxyParamCaption})}
+
+
+
+constructor 
+
+
+\begin{DoxyParams}{Parameters}
+{\em chynk\+Size} & \\
+\hline
+{\em chunk\+Height} & \\
+\hline
+{\em world} & \\
+\hline
+{\em world\+Position} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_chunk_data_aef4b1a3738f41e87c3567b7e598517df}\label{class_chunk_data_aef4b1a3738f41e87c3567b7e598517df} 
+\index{ChunkData@{ChunkData}!blocks@{blocks}}
+\index{blocks@{blocks}!ChunkData@{ChunkData}}
+\doxysubsubsection{\texorpdfstring{blocks}{blocks}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_block_type_8cs_a54420623f26ab6bb61042b41cccf37a3}{Block\+Type}} \mbox{[}$\,$\mbox{]} Chunk\+Data.\+blocks}
+
+
+
+1 dimentional array with blocks\textquotesingle{} types 
+
+1 dim array is used to represent block in 3 dims to make code run faster, size of array equals chunk\+Size \texorpdfstring{$\ast$}{*} chunk\+Size \texorpdfstring{$\ast$}{*} chunk\+Height \Hypertarget{class_chunk_data_adfa832ab991b6c3e1b0cad055c7bdb09}\label{class_chunk_data_adfa832ab991b6c3e1b0cad055c7bdb09} 
+\index{ChunkData@{ChunkData}!chunkHeight@{chunkHeight}}
+\index{chunkHeight@{chunkHeight}!ChunkData@{ChunkData}}
+\doxysubsubsection{\texorpdfstring{chunkHeight}{chunkHeight}}
+{\footnotesize\ttfamily int Chunk\+Data.\+chunk\+Height = 100}
+
+
+
+height of the chunk 
+
+\Hypertarget{class_chunk_data_af9ee05bf0d1affe98170c13e5d46d4ff}\label{class_chunk_data_af9ee05bf0d1affe98170c13e5d46d4ff} 
+\index{ChunkData@{ChunkData}!chunkSize@{chunkSize}}
+\index{chunkSize@{chunkSize}!ChunkData@{ChunkData}}
+\doxysubsubsection{\texorpdfstring{chunkSize}{chunkSize}}
+{\footnotesize\ttfamily int Chunk\+Data.\+chunk\+Size = 16}
+
+
+
+vertical dimensions of chunk 
+
+\Hypertarget{class_chunk_data_a1c9863e537bdcf6344dae3a00b5ffdcd}\label{class_chunk_data_a1c9863e537bdcf6344dae3a00b5ffdcd} 
+\index{ChunkData@{ChunkData}!modifiedByThePlayer@{modifiedByThePlayer}}
+\index{modifiedByThePlayer@{modifiedByThePlayer}!ChunkData@{ChunkData}}
+\doxysubsubsection{\texorpdfstring{modifiedByThePlayer}{modifiedByThePlayer}}
+{\footnotesize\ttfamily bool Chunk\+Data.\+modified\+By\+The\+Player = false}
+
+
+
+flag indicating if chunk was modified by player 
+
+\Hypertarget{class_chunk_data_ad27f309c9180ea58bbc716d812899ddc}\label{class_chunk_data_ad27f309c9180ea58bbc716d812899ddc} 
+\index{ChunkData@{ChunkData}!worldPosition@{worldPosition}}
+\index{worldPosition@{worldPosition}!ChunkData@{ChunkData}}
+\doxysubsubsection{\texorpdfstring{worldPosition}{worldPosition}}
+{\footnotesize\ttfamily Vector3\+Int Chunk\+Data.\+world\+Position}
+
+
+
+absolute world position vector 
+
+used to convert betweend absolute and local (for chunk) positions of blocks \Hypertarget{class_chunk_data_a7b5f8079aac5bb9771948e29a3ae0b67}\label{class_chunk_data_a7b5f8079aac5bb9771948e29a3ae0b67} 
+\index{ChunkData@{ChunkData}!worldReference@{worldReference}}
+\index{worldReference@{worldReference}!ChunkData@{ChunkData}}
+\doxysubsubsection{\texorpdfstring{worldReference}{worldReference}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_world}{World}} Chunk\+Data.\+world\+Reference}
+
+
+
+reference to \doxylink{class_world}{World} class 
+
+necessary for neighbouring chunk updates 

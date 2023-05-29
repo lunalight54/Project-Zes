@@ -1,0 +1,7 @@
+<map id="StoneLayerHandler" name="StoneLayerHandler">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,261,128,352"/>
+<area shape="rect" id="Node000002" href="$class_block_layer_handler.html" title=" " alt="" coords="6,123,127,213"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,228,69,262,64,262,64,228"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="16,5,117,75"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="69,89,69,123,64,123,64,89"/>
+</map>

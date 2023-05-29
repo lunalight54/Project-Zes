@@ -1,0 +1,15 @@
+<map id="BlockLayerHandler" name="BlockLayerHandler">
+<area shape="rect" id="Node000001" title=" " alt="" coords="288,123,409,213"/>
+<area shape="rect" id="Node000003" href="$class_air_layer_handler.html" title=" " alt="" coords="5,272,111,341"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="276,198,202,227,125,264,106,274,103,270,122,259,200,222,274,193"/>
+<area shape="rect" id="Node000004" href="$class_stone_layer_handler.html" title=" " alt="" coords="135,261,258,352"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="291,225,247,264,244,260,287,221"/>
+<area shape="rect" id="Node000005" href="$class_surface_layer_handler.html" title=" " alt="" coords="282,272,415,341"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="351,228,351,272,346,272,346,228"/>
+<area shape="rect" id="Node000006" href="$class_underground_layer_handler.html" title=" " alt="" coords="440,272,601,341"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="417,220,481,270,477,275,413,224"/>
+<area shape="rect" id="Node000007" href="$class_water_layer_handler.html" title=" " alt="" coords="625,272,749,341"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="424,188,516,219,615,259,636,270,634,274,613,264,514,224,422,193"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="298,5,399,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="351,89,351,123,346,123,346,89"/>
+</map>
