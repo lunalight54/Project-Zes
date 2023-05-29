@@ -34,7 +34,7 @@ public class ItemContainer : ScriptableObject
     public void Add(Item item, int count)
     {
         
-        if (item.stackable == true)
+        if (item != null && item.stackable == true)
         {
             ItemSlot availableItemSlot = slots.Find(x => x.item == item);
             if (availableItemSlot != null)
