@@ -49,6 +49,7 @@ public class MeshData
             colliderTriangles.Add(colliderVertices.Count - 4);
             colliderTriangles.Add(colliderVertices.Count - 3);
             colliderTriangles.Add(colliderVertices.Count - 2);
+            
             colliderTriangles.Add(colliderVertices.Count - 4);
             colliderTriangles.Add(colliderVertices.Count - 2);
             colliderTriangles.Add(colliderVertices.Count - 1);
